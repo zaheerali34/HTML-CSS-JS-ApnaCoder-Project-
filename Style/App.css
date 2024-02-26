@@ -1,0 +1,372 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --label-color-1: #667085;
+    --label-color-2: #475467;
+    --label-color-3: #fff;
+    --label-color-4: #6b46ff;
+    --label-color-5: #101828;
+    --label-color-6: #344054;
+    --label-color-7: #18254a;
+    --label-color-8: #828fa1;
+    --label-color-9: #000;
+    --label-color-10: #666;
+    --label-color-11: #0556f3;
+    --label-color-12: #163269;
+    --label-color-13: #354051;
+    --label-color-14: #212529;
+    --label-color-15: #007bff;
+    --label-color-16: #16181b;
+    --label-color-17: #99b0bb;
+    --label-color-18: #86a1ae;
+}
+
+.container {
+    margin-inline: auto;
+    padding-inline: 40px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+/* ==================================== */
+
+/* ========= Top Bar Coding Start ======== */
+
+.top_bar {
+    width: 100%;
+    height: 40px;
+    background-color: var(--label-color-4);
+    justify-content: center;
+    gap: 10px;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 99;
+}
+
+.top_bar p {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.top_bar span {
+    color: #ffc300;
+}
+
+.top_bar .top_btn {
+    padding: 0.6rem 2rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffff;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+/* ========= Top Bar Coding End ======== */
+
+/* ========= Header Coding End ======== */
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 5px 5px rgba(168, 168, 168, 0.342);
+    position: fixed;
+    top: 2.5rem;
+    left: 0;
+    z-index: 99;
+}
+
+.header .header_bar {
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.header_bar .search_bar {
+    width: 25%;
+    height: 3rem;
+    background-color: rgb(243, 243, 243);
+    padding-left: 0.5rem;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.header_bar .search_bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.header_bar .search_bar img {
+    width: 25px;
+    padding-right: 0.2rem;
+}
+
+.header_bar .logo img {
+    width: 50px;
+}
+
+.header_bar .logo h3 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.header_bar .logo span {
+    color: #ffa600;
+}
+
+.header_bar nav ul {
+    gap: 3rem;
+}
+
+.header_bar nav ul li {
+    color: var(--label-color-2);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.header_bar nav ul li:hover {
+    color: var(--label-color-4);
+}
+
+nav ul li:hover .courses_bar {
+    display: block;
+}
+
+.img_arrow {
+    width: 20%;
+    transition: 0.3s;
+}
+
+.img_arrow:hover  {
+    transform: rotate(180deg);
+}
+
+.menu_icon {
+    display: none;
+}
+
+.header_bar .courses_bar {
+    width: 50vw;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgba(175, 175, 175, 0.212);
+    position: absolute;
+    top: 3.4rem;
+    right: 3rem;
+    gap: 180px;
+    padding: 0.7rem;
+    display: none;
+}
+
+.courses_bar .box {
+    align-items: start;
+    gap: 100px;
+    padding-right: 5rem;
+}
+
+.courses_bar .box .one {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.courses_bar .box .one .one_img img {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #007bff;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.courses_bar .box .one .one_img span {
+    font-size: 0.8rem;
+    padding-left: 10px;
+    color: #163269;
+}
+
+.courses_bar .box .two  {
+    padding-left: rem;
+}
+
+.courses_bar .box .two h1 {
+    font-size: 1rem;
+    color: #163269;
+}
+
+.courses_bar .box .two p {
+    width: 150%;
+    padding-top: 1rem;
+    line-height: 30px;
+    color: #163269;
+}
+
+.courses_bar .box .logo {
+    position: absolute;
+    bottom: 1rem;
+    color: #163269;
+}
+
+/* ========= Header Coding End ======== */
+
+
+/* ========= Home Coding Style ======== */
+
+.home .home_bar {
+    margin-top: 10rem;
+}
+
+.home .home_bar .logo_pro {
+    justify-content: space-around;
+}
+
+.home .home_bar .logo_pro h3 {
+    color: var(--label-color-4);
+    font-size: 0.9rem;
+    padding-top: 3rem;
+    animation: Geting 2.5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.home_bar .logo_pro img {
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: white;
+    box-shadow: 0 10px 15px 10px rgba(56, 56, 56, 0.082);
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    animation: Geting 2s ease-in-out;
+}
+
+.home_bar .text_bar {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.home_bar .text_bar h1 {
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    color: var(--label-color-14);
+    padding-top: 2rem;
+    animation: Geting 2.5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.home_bar .text_bar p {
+    color: var(--label-color-1);
+    padding-top: 1rem;
+    font-size: 1.3rem;
+    width: 90%;
+    padding-left: 5rem;
+    line-height: 35px;
+    animation: Geting 2.5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.home_bar .logo_one  {
+    gap: 200px;
+}
+
+.logo_one .btn_start {
+    padding: 1.5rem 1.7rem;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: var(--label-color-4);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    transition: 0.3s;
+    border: 1px solid var(--label-color-4);
+    box-shadow: 0 5px 10px 5px #6b46ff4b;
+    text-transform: uppercase;
+    animation: Geting 2.5s ease-in-out;
+    animation-fill-mode: both;
+}
+
+.logo_one .btn_start:hover {
+    background-color: white;
+    color: var(--label-color-4);
+}
+
+.home_bar .logo_two {
+    padding-top: 2rem;
+}
+
+.home_bar .logo_two .img_home {
+    width: 50%;
+    padding-top: 5rem;
+}
+
+/* ========= Home Coding End ======== */
+
+/* ========= Section One Coding Start ======== */
+.section_one .box_one {
+    flex-direction: column;
+    align-items: start;
+}
+
+.card {
+    width: 50%;
+    height: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 5px rgba(179, 179, 179, 0.13);
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+.card img {
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.card h1 {
+    font-size: 1rem;
+    color: black;
+}
+
+.card p {
+    color: rgb(126, 125, 125);
+    line-height: 1.5rem;
+}
+
+
+
+
+
+
+
+/* ========= Section One Coding End ======== */
+
+
+@keyframes Geting {
+    0% {
+        opacity: 0;
+        transform: translateY("300px");
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY("0");
+    }
+}
