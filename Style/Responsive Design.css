@@ -38,6 +38,17 @@
     .header_bar .search_bar {
         width: 50%;
     }
+
+    .section_one {
+        flex-direction: column-reverse;
+    }
+
+    .section_one .box_there {
+        text-align: center;
+        align-items: center;
+        position: relative;
+        right: 20%;
+    }
 }
 
 /* =========== Responsive 769PX =========== */

@@ -40,6 +40,24 @@ ul {
     list-style: none;
 }
 
+.btn_now {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: var(--label-color-4);
+    font-size: 0.9rem;
+    border: 1px solid var(--label-color-4);
+    transition: 0.4s;
+    margin-top: 2rem;
+}
+
+.btn_now:hover {
+    background: none;
+    color: var(--label-color-4);
+}
+
 /* ==================================== */
 
 /* ========= Top Bar Coding Start ======== */
@@ -186,15 +204,14 @@ nav ul li:hover .courses_bar {
 }
 
 .courses_bar .box .one .one_img img {
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: #007bff;
+    width: 3rem;
+    height: 3rem;
     padding: 0.3rem;
     border-radius: 5px;
 }
 
 .courses_bar .box .one .one_img span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding-left: 10px;
     color: #163269;
 }
@@ -316,13 +333,19 @@ nav ul li:hover .courses_bar {
 /* ========= Home Coding End ======== */
 
 /* ========= Section One Coding Start ======== */
-.section_one .box_one {
+.section_one {
+    margin-top: 5rem;
+}
+
+ .box_one {
     flex-direction: column;
     align-items: start;
+    width: 60%;
+    
 }
 
 .card {
-    width: 50%;
+    width: 27vw;
     height: 30%;
     background-color: #ffffff;
     border-radius: 10px;
@@ -350,9 +373,30 @@ nav ul li:hover .courses_bar {
     line-height: 1.5rem;
 }
 
+.box_two {
+    position: absolute;
+    left: 22rem;
+    width: 27vw;
+}
 
+.box_there {
+    margin-left: 23rem;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
 
+.box_there h4 {
+    color: var(--label-color-4);
+    font-size: 0.8rem;
+}
 
+.box_there p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 1.2rem;
+    color: var(--label-color-1);
+}
 
 
 
