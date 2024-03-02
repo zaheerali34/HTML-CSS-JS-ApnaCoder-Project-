@@ -50,7 +50,7 @@ ul {
     font-size: 0.9rem;
     border: 1px solid var(--label-color-4);
     transition: 0.4s;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .btn_now:hover {
@@ -328,6 +328,32 @@ nav ul li:hover .courses_bar {
 .home_bar .logo_two .img_home {
     width: 50%;
     padding-top: 5rem;
+}
+
+.home .icon_arrow {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--label-color-4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 10px 5px #3f3f3f31;
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    z-index: 99;
+}
+
+.home .icon_arrow:hover {
+    transform: translateY(-8px);
+}
+
+.home .icon_arrow img {
+    width: 30px;
+    transform: rotate(180deg);
 }
 
 /* ========= Home Coding End ======== */

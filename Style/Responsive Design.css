@@ -55,24 +55,32 @@
 
 
     .section_one .card {
-        width: 80vw;
+        width: 60vw;
         margin-right: 10rem;
     }
 
     .box_two .card {
-       position: absolute;
-       top: 0.5rem;
-       left: -10rem;
-       width: 30rem;
-       height: 12rem;
-    }
-
+        position: absolute;
+        top: 0.5rem;
+        left: -10rem;
+        width: 60vw;
+        height: 12rem;
+     }
+ 
     .online_bar {
         margin-top: 20rem;
     }
 
     .online_box {
         flex-direction: column;
+    }
+
+    .learn_coder {
+        margin-top: 20rem;
+    }
+
+    .learn_coder .learn_bar {
+        flex-wrap: wrap;
     }
     
 
@@ -94,20 +102,20 @@
         gap: 0;
     }
 
+   
     .section_one .card {
-        position: relative;
-        right: 5rem;
+        width: 60vw;
+        margin-right: 10rem;
     }
 
-    
     .box_two .card {
         position: absolute;
         top: 0.5rem;
-        left: -18rem;
-        /* width: 30rem;
-        height: 12rem; */
+        left: -13rem;
+        width: 60vw;
+        height: 12rem;
      }
-
+ 
      .box_gap {
         margin-top: 3rem;
      }
@@ -119,6 +127,10 @@
      .online_box .image img {
         width: 60vw;
     }
+
+      .learn_coder .learn_bar .box_learn {
+        width: 100%;
+    }
     
 
 
@@ -128,6 +140,7 @@
 @media (max-width: 500px) {
     .top_bar {
         padding: 1rem;
+        width: 100vw;
     }
 
     .top_bar p {
@@ -139,6 +152,10 @@
         height: 2rem;
         font-size: 8px;
         font-weight: bold;
+    }
+
+    .header {
+        width: 100vw;
     }
 
     .header_bar .logo img {
@@ -153,6 +170,16 @@
     .header_bar .search_bar {
         width: 40%;
         height: 2.5rem;
+    }
+
+    .home .home_bar .text_bar {
+        padding-left: 2rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section_one .box_there {
+        margin-right: 8rem;
     }
 
     .logo_pro img {
@@ -171,10 +198,52 @@
     .box_there p {
         width: 130%;
     }
+
+    .section_one .card {
+        width: 80vw;
+        margin-left: 1.5rem
+    }
+
+    .box_two .card {
+        position: absolute;
+        top: 0.5rem;
+        left: -20.2rem;
+        width: 80vw;
+        height: 12rem;
+     }
+
+     .online_bar {
+        margin-top: 10rem;
+     }
+
+     .online_bar .box_gap {
+        flex-wrap: wrap;
+     }
+
+     .online_bar .online_box .image img {
+        width: 70vw;
+     }
+
+     .online_bar .online_box .box_gap .box_bar .box_img {
+        width: 100%;
+     }
+   .box_gap .box_bar {
+
+        width: 80vw;
+     }
+
+     .challenge  {
+        text-align: center;
+     }
+ 
+    .challenge  .challenge_bar .free_box {
+        width: 100%;
+     }
+
 }
 
-/* ============ Responsive 481px ============ */
-@media (max-width: 481px) {
+/* ============ Responsive 381px ============ */
+@media (max-width: 381px) {
     .home .home_bar .logo_pro h3 {
         font-size: 1rem;
     }
@@ -201,19 +270,38 @@
 
     }
 
-    .box_two {
-        top: 90rem;
-        left: 19rem;
-        width: 37rem;
-    }
-
     .section_one .box_there {
         margin-right: 163px;
         width: 100%;
     }
 
+    .section_one .card {
+        width: 70vw;
+        margin-left: 3rem
+    }
+
+    .box_two .card {
+        position: absolute;
+        top: 0.5rem;
+        left: -22rem;
+        width: 70vw;
+        height: 12rem;
+     }
+
     .online_bar .box_gap {
         flex-direction: column;
+    }
+
+    .learn_coder {
+        text-align: center;
+    }
+
+    .learn_coder .learn_bar {
+        margin-right: -15rem;
+    }
+
+    .learn_coder .learn_bar .box_learn {
+        width: 70vw;
     }
 
 }
