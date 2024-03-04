@@ -426,10 +426,51 @@ nav ul li:hover .courses_bar {
 
 /* ========= Section One Coding End ======== */
 
+
+
+  
+
+.swiper {
+    width: 80%;
+    height: 40vh;
+    margin-top: 10rem;
+  }
+
+  .swiper-slide {
+    background: #fff;
+    border-radius: 7px;
+    align-items: flex-start;
+    padding: 1rem;
+      border: 1px solid rgba(128, 128, 128, 0.267);
+  }
+
+  .swiper-slide img {
+      width: 50px;
+  } 
+
+  .swiper-slide h2 {
+      font-weight: 600;
+      font-size: 0.9rem;
+      padding-top: 1rem;
+      color: var(--label-color-13);
+  }
+
+  .swiper-slide p {
+      font-size: 13px;
+      padding-top: 1rem;
+      color: var(--label-color-1);
+      line-height: 15px;
+  }
+
+  .swiper-slide h4 {
+      font-size: 0.7rem;
+      padding-top: 1rem;
+  }
+
 /* ========= Section Web Dev Coding Start ======== */
 
 .learn_coder {
-    margin-top: 7.5rem;
+    margin-top: 10rem;
     flex-direction: column;
     gap: 10px;
 }
@@ -602,6 +643,58 @@ nav ul li:hover .courses_bar {
 
 /* ========= Section Challenge Coding End ======== */
 
+/* ========= Section Create Coding Start ======== */
+
+.create_bar {
+    width: 70vw;
+    height: 400px;
+    background-color: rgba(116, 116, 116, 0.048);
+    border-radius: 5px;
+    flex-direction: column;   
+    margin: 5rem auto;
+    gap: 10px;
+    padding: 1.5rem;
+
+}
+
+.create_bar h2 {
+    font-size: 1.5rem;
+    width: 80%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.create_bar p {
+    color: var(--label-color-1);
+}
+
+.create_bar .btn_create {
+    gap: 20px;
+}
+
+.create_bar .btn_create .all_btn {
+    padding: 1rem 1rem;
+    background: none;
+    border: 1px solid var(--label-color-17);
+    border-radius: 5px;
+    transition: 0.4s;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--label-color-1);
+    margin-right: 1rem;
+}
+
+.create_bar .btn_create .all_btn:hover {
+    background-color: var(--label-color-4);
+    color: white;
+}
+
+.create_bar img {
+    width: 105%;
+    padding-top: 2rem;
+}
+
+/* ========= Section Create Coding End ======== */
 
 @keyframes Geting {
     0% {
