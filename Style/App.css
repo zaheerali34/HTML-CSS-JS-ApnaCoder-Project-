@@ -694,6 +694,78 @@ nav ul li:hover .courses_bar {
     padding-top: 2rem;
 }
 
+.create_bar .mobile_bar {
+    justify-content: space-between;
+}
+
+.mobile_bar .text_mobile {
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.mobile_bar .text_mobile h2 {
+    font-size: 2rem;
+    color: var(--label-color-16);
+}
+
+.mobile_bar .text_mobile p {
+    color: var(--label-color-1);
+}
+
+.mobile_bar .text_mobile img {
+    width: 7rem;
+}
+
+.mobile_bar img {
+    width: 25rem;
+}
+
+.card_create {
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.card_create .card_two {
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.301);
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    gap: 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.card_create .card_two:hover {
+    box-shadow: 0 0 13px 15px rgba(211, 211, 211, 0.226);
+}
+
+.card_create .card_two img {
+    width: 3.5rem;
+}
+
+.card_create .card_two h3 {
+    font-weight: 100;
+}
+
+.card_create .card_two p {
+    color: var(--label-color-1);
+    font-size: 0.9rem;
+    line-height: 20px;
+}
+
+.card_create .card_two button {
+    background: none;
+    border: none;
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 /* ========= Section Create Coding End ======== */
 
 @keyframes Geting {
