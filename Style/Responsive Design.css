@@ -82,8 +82,20 @@
     .learn_coder .learn_bar {
         flex-wrap: wrap;
     }
-    
 
+    .card_create {
+        flex-wrap: wrap;
+    }
+    
+    .about_section {
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .about_section .text_about h3 {
+        margin: auto;
+    }
 
 }
 
@@ -132,7 +144,37 @@
         width: 100%;
     }
     
+    .create_bar {
+        text-align: center;
+        gap: 10px;
+    }
 
+    .create_bar h2 {
+        line-height: 25px;
+        font-size: 1.2rem;
+    }
+
+    .mobile_bar {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .mobile_bar .text_mobile p,img {
+        margin: auto;
+    }
+
+    .card_create .card_two {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card_create .card_two h3,button {
+        margin: auto;
+    }
+
+    .footer_bar {
+        flex-wrap: wrap;
+    }
 
 }
 

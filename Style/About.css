@@ -1,0 +1,159 @@
+.about_section {
+    margin-top: 5rem;
+}
+
+.about_section .text_about {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding-top: 3rem;
+}
+
+.text_about h3 {
+    font-size: 0.9rem;
+    color:#6b46ff;
+}
+
+.text_about p {
+    color:#667085;
+    font-size: 0.8rem;
+    line-height: 20px;
+}
+
+/* Story Section Coding Start  */
+.story_section {
+    margin-top: 7rem;
+    justify-content: space-between;
+}
+
+.story_section .story_text {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 50%;
+}
+
+.story_text h4 {
+    font-size: 0.8rem;
+    color: #6b46ff;
+}
+
+.story_text h2 {
+    font-size: 1rem;
+    color: #000000dc;
+}
+
+.story_text p {
+    font-size: 0.9rem;
+    color: #000000dc;
+    line-height: 20px;
+}
+
+.story_section .story_bg {
+    width: 40%;
+    height: 40vh;
+    background-color: #d3d3d33d;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 1rem;
+}
+
+.story_bg h2 {
+    font-size: 1rem;
+}
+
+.icon_story {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.icon_story .icon {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.icon_story .icon p {
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    color: #000000dc;
+}
+
+.icon .text_icon {
+    gap: 10px;
+}
+
+
+.icon .text_icon img {
+    width: 30px;
+}
+
+.text_icon div span {
+    font-weight: bold;
+    font-size: 0.9rem;
+
+}
+
+.text_icon div p {
+    font-size: 0.8rem;
+    padding-top: 0.2rem;
+    color: #000000dc;
+}
+
+/* Story Section Coding End  */
+
+/* Online Section Coding End  */
+
+.section_online {
+    width: 100%;
+    height: 50vh;
+    background-color: #e7e7e786;
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.section_online h4 {
+    font-size: 0.8rem;
+    color: #6b46ff;
+}
+
+.section_online h1 {
+    font-size: 1rem;
+    color: #000000dc;
+    padding-top: 10px;
+}
+
+.section_online .box_online {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.box_online .box_bar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    text-align: start;
+    line-height: 20px;
+    padding-top: 2rem;
+}
+
+.box_online .box_bar img {
+    width: 40px;
+}
+
+.box_online .box_bar h2 {
+    font-size: 1rem;
+    color: #000000dc;
+}
+
+
+.box_online .box_bar p {
+    font-size: 0.8rem;
+    color: #667085;
+}
+
+/* Online Section Coding End  */

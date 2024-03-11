@@ -40,6 +40,15 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: var(--label-color-1);
+}
+
+a:hover {
+    color: var(--label-color-4);
+}
+
 .btn_now {
     padding: 1rem 2rem;
     border: none;
@@ -427,12 +436,9 @@ nav ul li:hover .courses_bar {
 /* ========= Section One Coding End ======== */
 
 
-
-  
-
 .swiper {
     width: 80%;
-    height: 40vh;
+    height: 50vh;
     margin-top: 10rem;
   }
 
@@ -466,6 +472,7 @@ nav ul li:hover .courses_bar {
       font-size: 0.7rem;
       padding-top: 1rem;
   }
+
 
 /* ========= Section Web Dev Coding Start ======== */
 
@@ -570,7 +577,7 @@ nav ul li:hover .courses_bar {
     cursor: pointer;
 }
 
-.online_box .box_bar .box_img img {
+.online_box .box_bar .box_img .image img {
     width: 2rem;
 }
 
@@ -633,12 +640,13 @@ nav ul li:hover .courses_bar {
     transform: translateX(3px);
 }
 
-.challenge_bar .free_box img {
+.challenge_bar .free_box .image img {
     width: 25px;
 }
 
-.challenge_bar .free_box span {
+.challenge_bar .free_box h4 {
     font-size: 13px;
+    font-weight: 100;
 }
 
 /* ========= Section Challenge Coding End ======== */
@@ -730,7 +738,7 @@ nav ul li:hover .courses_bar {
     width: 15rem;
     height: 15rem;
     background-color: white;
-    border: 2px solid rgba(128, 128, 128, 0.301);
+    border: 1px solid rgba(128, 128, 128, 0.301);
     border-radius: 10px;
     flex-direction: column;
     align-items: flex-start;
@@ -767,6 +775,56 @@ nav ul li:hover .courses_bar {
 }
 
 /* ========= Section Create Coding End ======== */
+
+/* ========= Section Footer Coding Start ======== */
+
+.footer_bar {
+    width: 100%;
+    height: 10rem;
+    background-color:#dddddd3b;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 2rem;
+}
+
+.footer_bar .footer_one {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.footer_one .logo h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.footer_one .logo span {
+    color: #ffa600;
+}
+
+.footer_one .logo img {
+    width: 50px;
+}
+
+.footer_one ul {
+    gap: 12px;
+}
+
+.footer_one ul li {
+    color: var(--label-color-1);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.footer_one ul li:hover {
+    color: #007bff;
+}
+
+
+/* ========= Section Footer Coding End ======== */
 
 @keyframes Geting {
     0% {
